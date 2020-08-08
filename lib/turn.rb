@@ -16,7 +16,6 @@ end
 #valid_move? checks if the user input is a valid position on the board and if empty
 def valid_move?(board, index)
   if index.between?(0, 8) && !position_taken?(board, index)
-    true
   end
 end
 
